@@ -1,0 +1,16 @@
+
+/* header */
+#menu {width:90%;overflow:hidden;height:34px;border-bottom:3px solid #323232}
+#menu li {float:left}
+#menu li a {display:block;font-size:19px;color:#fff;font-weight:600;padding:0 53px;text-decoration:none ;text-transform:uppercase;line-height:35px}
+#menu li a:hover, #menu #menu_active a {background:#323232}
+
+.nav1 {background:#3081c8}
+.nav2 {background:#8cbd20}
+.nav3 {background:#f09e2f}
+.nav4 {background:#b530ba}
+
+/* footer */
+footer {padding-top:100px;text-align:center;line-height:200px;color:#fff}
+footer a {color:#439deb}
+/* 

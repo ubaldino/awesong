@@ -1,10 +1,11 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
+from core.views import inicio
 admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-     #url(r'^$', 'awesong.views.home', name='home'),
+     url(r'^$', inicio),
      #url(r'^awesong/', include('awesong.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:

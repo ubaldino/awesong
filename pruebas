@@ -1,0 +1,6 @@
+import os
+
+dir = os.path.realpath(os.path.dirname(__file__) + "/../")
+
+print '\n',dir
+print os.path.join(dir, 'templates')
